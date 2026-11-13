@@ -1,13 +1,17 @@
 import "./App.css";
-import SearchForm from "./SearchForm.js";
+
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <SearchForm />
+      <div className="container">
+      <h1>Weather App</h1>
+    
+      <Weather />
+   
        <footer> By Dara❤️  and its hosted on <a href="https://github.com/DNyl01/my-app">GitHub</a></footer>
-    </div>
+    </div></div>
 
    
   );
