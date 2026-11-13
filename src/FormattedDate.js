@@ -11,8 +11,7 @@ let days = [
     let minutes = props.date.getMinutes();
     if (minutes<10) {minutes= `0${minutes}`}
 
-     let month = props.date.getMonth();
-      let year = props.date.getYear()
+    
 
 
     return (<div>
